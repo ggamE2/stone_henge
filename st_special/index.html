@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>st_special</title>
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="maincss/animate-ex.css">
+
+    <script src="mainjs/jquery-2.1.1.min.js"></script>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'>
+
+
+
+
+    <!-- 마우스 휠을 움직임 -->
+    <script src="mainjs/jquery-ui.min.js"></script>
+    <script src="mainjs/jquery.easing.1.3.js"></script>
+    <script src="mainjs/prefixfree.min.js"></script>
+    <script src="mainjs/jquery.mousewheel.min.js"></script>
+
+    <script src="common/js/common.js"></script>
+    <script src="mainjs/main.js"></script>
+
+</head>
+
+
+<body>
+<div id="wrap">
+<header class="header">
+
+    <div class="head_menu">
+        <h1><a href="../st_main/index.html"><img src="../asset/images/logo.png" alt=""></a></h1>
+    
+        <nav class="nav">
+            <ul class="gnb">
+    
+                <li><a href="../st_brandstory/index.html"><span class="triangle"></span>
+                        <h3>BRAND</h3>
+                    </a>
+                    <ul class="sub1 subm">
+                        <li><a href="../st_brandstory/index.html">
+                                BRAND STORY
+                                <img src="../asset/images/sub1_story.jpg" alt="">
+                            </a></li>
+                        <li><a href="#">
+                                BEAUTIFUL MOMENTS
+                                <img src="../asset/images/sub1_5.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_special/index.html">SPECIAL
+                                <img src="../asset/images/sub1_6.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_ed/index.html">EDITORIAL
+                                <img src="../asset/images/sub1_3.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_she/index.html"><span class="triangle"></span>
+                        <h3>COLLECTION</h3>
+                    </a>
+                    <ul class="sub2 subm">
+                        <li><a href="../st_she/index.html">SHE<br>
+                                <img src="../asset/images/sub3_2.jpg" alt=""></a></li>
+                        <li><a href="../st_silluet/index.html">SILHOUETTE<br>
+                                <img src="../asset/images/sub3_1.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_honeymoon/index.html">HONEYMOON<br>
+                                <img src="../asset/images/sub3_11.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_watch/index.html">WATCH<br>
+                                <img src="../asset/images/sub3_9.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_silver/index.html">SILVER<br>
+                                <img src="../asset/images/sub3_5.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_necklace/index.html"><span class="triangle"></span>
+                        <h3>ITEM</h3>
+                    </a>
+                    <ul class="sub3 subm">
+                        <li><a href="../st_necklace/index.html">NECKLACE
+                                <img src="../asset/images/sub2_2.jpg" alt=""></a>
+                        </li>
+                        <li><a href="../st_earring/index.html">EARRINGS
+                                <img src="../asset/images/sub3_15.jpg" alt=""></a>
+                        </li>
+                        <li><a href="../st_ring/index.html">RING <br>
+                                <img src="../asset/images/sub2_4.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_bracelet/index.html">BRACELET
+                                <img src="../asset/images/sub3_ba.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_watch/index.html">WATCH
+                                <img src="../asset/images/sub3_90.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_style/index.html"><span class="triangle"></span>
+                        <h3>ISSUE</h3>
+                    </a>
+                    <ul class="sub4 subm">
+                        <li><a href="../st_style/index.html">STYLE<br>
+                                <img src="../asset/images/sub1_1.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_gallery/index.html">GALLERY
+                                <img src="../asset/images/sub4_2.png" alt="">
+                            </a></li>
+                        <li><a href="../st_news(Reactive)/index.html">NEWS <br>
+                                <img src="../asset/images/sub4_3.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_store/index.html"><span class="triangle"></span>
+                        <h3>STORE</h3>
+                    </a>
+                    <ul class="sub5 subm">
+                        <li><a href="../st_store/index.html">FIND STORE
+                                <img src="../asset/images/sub5_1.jpg" alt=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="gnb2">
+                <li class="user"><a href="#"><img src="../asset/images/user.png" alt=""></a></li>
+                <li class="search_bar"><a href="#"><img src="../asset/images/search_bar.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--head_menu-->
+
+
+<div class="gnb_back"></div>
+
+        <div class="search_box">
+            <div class="search_in">
+                <input type="text" placeholder="#LOVE KNOT COLLECTION" class="search_txt">
+                <input type="button" value="검색" class="search_btn">
+            </div>
+        </div>
+        <!--search_box-->
+
+        <div class="user_in">
+            <p class="close"><a href="#"><img src="../asset/images/close.png" alt=""></a></p>
+            <h2>로그인</h2>
+            <h3>회원가입 시 등록하신 이메일과 비밀번호를 입력해주세요.<br>
+                통합 아이디로 FAMILY 사이트의 모든 서비스를 안전하게 이용하실 수 있습니다.</h3>
+
+            <div class="cont1">
+                <input type="text" placeholder="id" class="id">
+                <input type="text" placeholder="pw" class="pw">
+                <p class="btn"><a href="#">로그인하기</a></p>
+                <ul>
+                    <li class="id_save"><input type="checkbox">아이디 저장하기</li>
+                    <li class="id_search"><a href="#">아이디 찾기</a>/</li>
+                    <li class="pw_search"><a href="#">비밀번호 찾기</a></li>
+                </ul>
+                <div class="line"></div>
+                <p class="join">아직 회원이 아니신가요? <span><a href="https://stonehenge.co.kr/index_subpage.html?mainwhat=9&subwhat=2">회원가입</a></span></p>
+            </div>
+            <!--user_in-->
+
+
+            <div class="cont2">
+                <ul>
+                    <li><a href="https://nid.naver.com/"><img src="../asset/images/icon1.gif" alt="">
+                            <p>네이버 로그인</p>
+                        </a></li>
+                    <li><a href="#"><img src="../asset/images/icon2.gif" alt="">
+                            <p>페이스북 로그인</p>
+                        </a></li>
+                    <li><a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_dr9r5ise4eu_provider%26ka%3Dsdk%252F1.40.14%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fstonehenge.co.kr%26origin%3Dhttps%253A%252F%252Fstonehenge.co.kr%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3D3pgk0k0jlkt84ou3oq28oh%26client_id%3D5876c01b305b32914668fb0241babd4c"><img src="../asset/images/icon3.gif" alt="">
+                            <p>카카오톡 로그인</p>
+                        </a></li>
+                </ul>
+            </div>
+            <!--cont2-->
+        </div>
+        <!--user_in-->
+
+        </header>
+
+
+
+<div id="contents"> 
+<h1 class="txt wow fadeInDown" data-wow-delay="0.3s">SPECIAL</h1>
+
+<div class="cont1">
+<img src="images/img1.jpg" alt="">
+<h2 class="txt wow fadeInDown" data-wow-delay="0.4s">
+<span>INCH INCH</span><br>
+<b>홀리데이 아트워크 콜라보</b><br><br>
+2020 가장 주목받는 아트 디렉터, 차인철 (inch_inch_inch)과<br>
+함께한 홀리데이 아트워크 콜라보입니다. <br>
+</h2>
+<p class="btn wow fadeInDown" data-wow-delay="0.6s"><a href="#">Discover more</a></p>
+
+</div> 
+
+<div class="cont2">
+<img src="images/img2.jpg" alt="">
+<h2 class="txt wow fadeInDown" data-wow-delay="0.4s">
+<span>KIMJIHEE</span><br>
+<b>‘지금 이 순간 빛나는 나’</b><br><br>
+글로벌 아티스트인 김지희 작가와 함께한 콜라보레이션.<br>
+스톤헨지의 슬로건인‘Beautiful Moments'를 모티브로<br>
+특별한 작품을 완성하였습니다.
+<br>
+</h2> 
+<p class="btn wow fadeInDown" data-wow-delay="0.6s"><a href="#">Discover more</a></p>  
+</div> 
+
+<div class="cont3">
+<img src="images/img3.jpg" alt="">
+<h2 class="txt wow fadeInDown" data-wow-delay="0.4s" >
+<span>MASTERPICE</span><br>
+<b>주얼리와 클래식 예술 장르와의 결합</b><br><br>
+스톤헨지는 진화하는 브랜드로서의 가치를 보여주기 위해<br>
+2012년부터 매년 헤리티지 하이주얼리를 마스터피스 컬렉션으로<br>
+ 선보이고 있습니다.
+<br> 
+</h2>
+<p class="btn wow fadeInDown" data-wow-delay="0.6s"><a href="#">Discover more</a></p>   
+</div>   
+
+<div class="cont4">
+<img src="images/img4.jpg" alt="">
+<h2 class="txt wow fadeInDown" data-wow-delay="0.4s" >
+<span>FAIR TRADE GOLD</span><br>
+<b>주얼리 그 이상의 아름다움</b><br><br>
+페어트레이드 골드는 2012년 영국에서 처음 선보였으며,<br>
+국내는 아시아 최초로 스톤헨지에서 출시하였습니다.
+<br>
+</h2>
+<p class="btn wow fadeInDown" data-wow-delay="0.6s"><a href="#">Discover more</a></p>  
+</div> 
+
+<div class="cont5">
+<img src="images/img5.jpg" alt="">
+<h2 class="txt wow fadeInDown" data-wow-delay="0.4s" >
+<span>ANGRY BIRDS</span><br>
+<b>앵그리버드, 스톤헨지를 만나 주얼리가 되다</b><br><br>
+매년 다양한 장르와 콜라보레이션을 진행하는 스톤헨지가<br>
+‘앵그리버드 스페셜 에디션(ANGRY BIRDS SPECIAL EDITION)’을<br>
+출시하였습니다.<br>
+</h2>
+    <p class="btn wow fadeInDown" data-wow-delay="0.6s" ><a href="#">Discover more</a></p> 
+</div>
+
+
+<ul class="page">
+<li><a href="#"><img src="images/p1.png" alt=""></a></li>
+<li><a href="../stonehenge_news2/index.html"><img src="images/p2.png" alt=""></a></li> 
+<li><a href="#"><img src="images/p3.png" alt=""></a></li>     
+</ul>      
+</div><!--contents-->
+
+
+
+<section id="sec6" class="page6">
+<div id="page6">
+<h2>CONNECT WITH STONEHENGE</h2>
+<ul class="sns">
+    <li><a href="#"><img src="images/sns01.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/sns02.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/sns03.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/sns04.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/sns05.jpg" alt=""></a></li>
+</ul>
+
+<ul class="icon">
+    <li><a href="https://www.facebook.com/stonehengekorea"><img src="images/sns_1.png" alt=""></a></li>
+    <li><a href="https://www.youtube.com/user/stonehengekorea"><img src="images/sns_2.png" alt=""></a></li>
+    <li><a href="https://blog.naver.com/stonehenge_"><img src="images/sns_3.png" alt=""></a></li>
+    <li><a href="https://www.instagram.com/stonehenge_official/"><img src="images/sns_4.png" alt=""></a></li>
+    <li><a href="https://pf.kakao.com/_aswxml"><img src="images/sns_5.png" alt=""></a></li>
+</ul>
+
+
+
+<div class="foot">
+    <div>
+        <p class="foot1">
+            CS CENTER<br><br>
+            TEL: 02-3284-1300<br>
+            <a href="#">1:1문의</a>
+            <a href="#">FAQ</a>
+            <a href="#">고객의 소리</a>
+    </div>
+
+
+    <div>
+        <p class="foot2">
+            LEGAL &amp; COOKIES<br><br>
+            <a href="#">Terms Of Use</a><br>
+            <a href="#">Privacy Policy</a><br>
+        </p>
+    </div>
+
+    <div class="line"></div>
+    <div class="foot">
+        <p class="foot3">
+            (주)우림에프엠지<br>
+            대표이사 : 김윤호 사업자등록번호 : 108-86-09008 고객센터 : 02-3284-1300 주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층, 23층 우림FMG.<br>
+            Copyright ⓒ 2018 STONEHENgE Jewelry. All Rights Reserved.
+        </p>
+    </div>
+</div>
+</div>
+<!--page6-->
+</section>
+
+
+    <footer id="footer">
+        <h2 class="foot3">(주)우림에프엠지<br>
+            대표이사 : 김윤호 사업자등록번호 : 108-86-09008 고객센터 : 02-3284-1300 주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층, 23층 우림FMG.<br>
+            Copyright ⓒ 2018 STONEHENgE Jewelry. All Rights Reserved.
+        </h2>
+    </footer>
+</div><!-- wrap / -->
+   
+   
+   
+    <script src="mainjs/wow.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100
+        });
+        wow.init();
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+

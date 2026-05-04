@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>st_store</title>
+<link rel="stylesheet" href="common/css/common.css">
+<link rel="stylesheet" href="maincss/main.css">
+<link rel="stylesheet" href="maincss/animate-ex.css">
+
+<script src="mainjs/jquery-2.1.1.min.js"></script>
+<script src="mainjs/jquery.scrollTo.min.js"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script> 
+
+
+<!--fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Orelega+One&display=swap'>
+
+
+<script src="common/js/common.js"></script>
+<script src="mainjs/main.js"></script>
+
+<!-- 마우스 휠을 움직임 -->
+<script src="mainjs/jquery-ui.min.js"></script>
+<script src="mainjs/jquery.easing.1.3.js"></script>
+<script src="mainjs/prefixfree.min.js"></script>
+<script src="mainjs/jquery.mousewheel.min.js"></script>
+
+
+
+</head>
+<body onload="initialize()">
+<div id="wrap">
+<header class="header">
+
+    <div class="head_menu">
+        <h1><a href="../st_main/index.html"><img src="../asset/images/logo.png" alt=""></a></h1>
+    
+        <nav class="nav">
+            <ul class="gnb">
+    
+                <li><a href="../st_brandstory/index.html"><span class="triangle"></span>
+                        <h3>BRAND</h3>
+                    </a>
+                    <ul class="sub1 subm">
+                        <li><a href="../st_brandstory/index.html">
+                                BRAND STORY
+                                <img src="../asset/images/sub1_story.jpg" alt="">
+                            </a></li>
+                        <li><a href="#">
+                                BEAUTIFUL MOMENTS
+                                <img src="../asset/images/sub1_5.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_special/index.html">SPECIAL
+                                <img src="../asset/images/sub1_6.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_ed/index.html">EDITORIAL
+                                <img src="../asset/images/sub1_3.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_she/index.html"><span class="triangle"></span>
+                        <h3>COLLECTION</h3>
+                    </a>
+                    <ul class="sub2 subm">
+                        <li><a href="../st_she/index.html">SHE<br>
+                                <img src="../asset/images/sub3_2.jpg" alt=""></a></li>
+                        <li><a href="../st_silluet/index.html">SILHOUETTE<br>
+                                <img src="../asset/images/sub3_1.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_honeymoon/index.html">HONEYMOON<br>
+                                <img src="../asset/images/sub3_11.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_watch/index.html">WATCH<br>
+                                <img src="../asset/images/sub3_9.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_silver/index.html">SILVER<br>
+                                <img src="../asset/images/sub3_5.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_necklace/index.html"><span class="triangle"></span>
+                        <h3>ITEM</h3>
+                    </a>
+                    <ul class="sub3 subm">
+                        <li><a href="../st_necklace/index.html">NECKLACE
+                                <img src="../asset/images/sub2_2.jpg" alt=""></a>
+                        </li>
+                        <li><a href="../st_earring/index.html">EARRINGS
+                                <img src="../asset/images/sub3_15.jpg" alt=""></a>
+                        </li>
+                        <li><a href="../st_ring/index.html">RING <br>
+                                <img src="../asset/images/sub2_4.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_bracelet/index.html">BRACELET
+                                <img src="../asset/images/sub3_ba.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_watch/index.html">WATCH
+                                <img src="../asset/images/sub3_90.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_style/index.html"><span class="triangle"></span>
+                        <h3>ISSUE</h3>
+                    </a>
+                    <ul class="sub4 subm">
+                        <li><a href="../st_style/index.html">STYLE<br>
+                                <img src="../asset/images/sub1_1.jpg" alt="">
+                            </a></li>
+                        <li><a href="../st_gallery/index.html">GALLERY
+                                <img src="../asset/images/sub4_2.png" alt="">
+                            </a></li>
+                        <li><a href="../st_news(Reactive)/index.html">NEWS <br>
+                                <img src="../asset/images/sub4_3.jpg" alt="">
+                            </a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="../st_store/index.html"><span class="triangle"></span>
+                        <h3>STORE</h3>
+                    </a>
+                    <ul class="sub5 subm">
+                        <li><a href="../st_store/index.html">FIND STORE
+                                <img src="../asset/images/sub5_1.jpg" alt=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="gnb2">
+                <li class="user"><a href="#"><img src="../asset/images/user.png" alt=""></a></li>
+                <li class="search_bar"><a href="#"><img src="../asset/images/search_bar.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--head_menu-->
+
+   
+<div class="gnb_back"></div>     
+
+    <div class="search_box">
+                <div class="search_in">
+                    <input type="text" placeholder="#LOVE KNOT COLLECTION" class="search_txt">
+                    <input type="button" value="검색" class="search_btn">
+                </div>
+            </div><!--search_box-->
+            
+    <div class="user_in">
+        <p class="close"><a href="#"><img src="../asset/images/close.png" alt=""></a></p>   
+            <h2>로그인</h2>
+            <h3>회원가입 시 등록하신 이메일과 비밀번호를 입력해주세요.<br>
+            통합 아이디로 FAMILY 사이트의 모든 서비스를 안전하게 이용하실 수 있습니다.</h3>  
+
+              <div class="cont1">
+                    <input type="text" placeholder="id" class="id">
+                    <input type="text" placeholder="pw" class="pw">  
+                    <p class="btn"><a href="#">로그인하기</a></p>
+                    <ul>
+                    <li class="id_save"><input type="checkbox">아이디 저장하기</li>  
+                    <li class="id_search"><a href="#">아이디 찾기</a>/</li> 
+                    <li class="pw_search"><a href="#">비밀번호 찾기</a></li>
+                    </ul> 
+                <div class="line"></div>    
+              <p class="join">아직 회원이 아니신가요? <span><a href="https://stonehenge.co.kr/index_subpage.html?mainwhat=9&subwhat=2">회원가입</a></span></p> 
+              </div><!--user_in-->
+  
+  
+ <div class="cont2">
+    <ul>
+    <li><a href="https://nid.naver.com/"><img src="../asset/images/icon1.gif" alt=""><p>네이버 로그인</p></a></li>
+    <li><a href="#"><img src="../asset/images/icon2.gif" alt=""><p>페이스북 로그인</p></a></li> 
+    <li><a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Fsetting"><img src="../asset/images/icon3.gif" alt=""><p>카카오톡 로그인</p></a></li>   
+    </ul>    
+ </div>                          
+</div><!--user_in-->
+
+</header>
+
+<section id="sec2" class="page2"> 
+<div id="page2"> 
+<!--<div class="c3"><img src="images/back_deco.png" alt=""></div>-->
+<h1 class="txt wow fadeInDown" data-wow-delay="0.2s">STORE</h1>
+<h2 class="txt wow fadeInDown" data-wow-delay="0.5s">FIND A STONEHENgE
+BOUTIQUE<br>
+―<br></h2>
+<h3 class="txt wow fadeInDown" data-wow-delay="0.7s">
+스톤헨지의 오프라인 매장 정보를 제공합니다.</h3>
+
+
+<p class="area wow fadeInDown" data-wow-delay="0.7s">
+<select>     
+<option>시/도</option>
+<option>강원</option>
+<option>경기</option>
+<option>경남</option>
+<option>광주</option>
+<option>대구</option>
+<option>대전</option>
+<option>부산</option>
+<option>서울</option>
+<option>울산</option>
+<option>인천</option>
+<option>전북</option>
+<option>충남</option>
+<option>충북</option>
+<option>제주</option>
+<option>전남</option>
+</select></p> 
+
+
+<p class="btn1 wow fadeInDown" data-wow-delay="0.7s"><a href="#">국내 매장</a></p>
+<p class="btn2 wow fadeInDown" data-wow-delay="0.7s"><a href="#">면세 매장</a></p>
+
+<ul class="s1">
+<li><p class="search wow fadeInDown" data-wow-delay="0.7s"><input type="text" placeholder="Search"></p></li>
+<li><p class="search_btn wow fadeInDown" data-wow-delay="0.7s"><a href="#">검색</a></p></li>
+</ul>
+
+<!--
+<div class="content6 wow fadeInDown" data-wow-delay="0.8s" id="map"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+<script>
+    function initMap() {
+        var location = {lat: 37.5652876, lng: 126.8410254};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+
+-->
+
+
+<div class="content6 wow fadeInDown" data-wow-delay="0.8s" id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101202.11217208544!2d126.84102541640621!3d37.565287600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f1f9155af7%3A0x77d801cbcd221ab4!2sLotte%20Department%20Store%20Main%20Store!5e0!3m2!1sen!2skr!4v1653412072883!5m2!1sen!2skr" width="300" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    
+</div><!--content6/-->
+
+
+<div class="c2 wow slideInRight" data-wow-delay="0.7s">
+<ul>
+<li class="txt1">
+<span class="txt2">AK플라자 분당점</span>	<span class="txt3">경기도 성남시 분당구 서현동 263 AK플라자 1층    	TEL. 031-702-9914</span>	
+<span class="txt4"><a href="https://map.naver.com">MAP</a></span></li>
+
+<li class="txt1"><span class="txt2">AK플라자 수원점</span>	<span class="txt3">경기도 수원시 팔달구 매산로 1가-18번지 AK플라자 2층	TEL. 031-240-1180</span>
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">AK플라자 원주점</span>	<span class="txt3">강원도 원주시 단계동 1123 번지 AK플라자 원주점 1층	TEL. 033-811-5530</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">AK플라자 평택점</span>	<span class="txt3">경기 평택시 평택로 51 AK플라자 평택점 3층	TEL. 031-646-6303</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">LF스퀘어 광양점</span>	<span class="txt3">전라남도 광양시 광양읍 덕례리 707 광양 LF스퀘어 1층	TEL. 061-815-4681</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">NC백화점 강서점</span>	<span class="txt3">서울특별시 강서구 강서로56길 17 NC백화점 강서점 1층	TEL. 02-2667-9526</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">NC백화점 신구로점</span>	<span class="txt3">서울 구로구 구로중앙로 152 NC신구로점 1층	TEL. 02-6923-2174</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">갤러리아백화점 광교점</span>	<span class="txt3">경기 수원시 영통구 광교 호수공원로 320 갤러리아 광교점 1F	TEL. 031-5174-7161</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">갤러리아백화점 진주점</span>	<span class="txt3">경남 진주시 진주대로 1095 갤러리아 백화점 진주점 1층	TEL. 055-791-1167</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">갤러리아백화점 센터시티점</span>	<span class="txt3">충남 천안시 서북구 불당동 1299 갤러리아백화점 센터시티점 1층	TEL. 041–412–9904</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">갤러리아백화점 타임월드점</span>	<span class="txt3">대전광역시 서구 둔산2동 1036 갤러리아백화점 타임월드점 B1층	TEL. 042-487-3943</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">더현대서울</span>	<span class="txt3">서울 영등포구 여의대로 108 더현대서울 지하 2층	TEL. 02-3277-0884</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 건대스타시티점</span><span class="txt3">	서울특별시 광진구 자양동 227-342 롯데백화점 건대 스타시티점 1층	TEL. 02-2218-3185</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 관악점</span>	<span class="txt3">서울특별시 관악구 봉천로 209 롯데백화점 관악점 1층	TEL. 02-3289-8145</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 광복점</span>	<span class="txt3">부산광역시 중구 중앙대로2 롯데백화점 광복점 아쿠아몰 1층	TEL. 051-678-3344</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 광주점</span>	<span class="txt3">광주광역시 동구 대인동 7-1 롯데백화점 광주점 2층	TEL. 062-221-1182</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 구리점</span>	<span class="txt3">경기도 구리시 경춘로 261 롯데백화점 구리점 1층	TEL. 031-550-7187</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 노원점</span>	<span class="txt3">서울특별시 노원구 상계2동 713 롯데백화점 노원점 1층	TEL. 02-950-2449</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 대구점</span>	<span class="txt3">대구광역시 북구 칠성동2가 302-155 롯데백화점 대구점 B1층	TEL. 053-660-3123</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 대전점</span>	<span class="txt3">대전광역시 서구 괴정동 423-1 롯데백화점 대전점 1층	TEL. 042-601-2175</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 본점</span>    <span class="txt3">서울특별시 중구 소공동 1번지 롯데백화점 본점 B1층	TEL. 02-772-3073</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 부산점</span>	<span class="txt3">부산광역시 부산진구 부전동 503-15번지 롯데백화점 부산점 B1층	TEL. 051-810-4132</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 상인점</span>	<span class="txt3">대구광역시 달서구 상인동 1502 롯데백화점 상인점 1층	TEL. 053-258-3126</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 수원점</span>	<span class="txt3">경기 수원시 권선구 세화로 134 롯데백화점수원점 수원점 1층	TEL. 031-8066-0188</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 안산점</span>	<span class="txt3">경기도 안산시 단원구 고잔1길 12 롯데백화점 안산점 1층	TEL. 031-412-7707</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 영등포점</span>	<span class="txt3">서울특별시 영등포구 영등포동 618-496 롯데백화점 영등포점 3층	TEL. 02-2630-6714</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 울산점</span>	<span class="txt3">울산광역시 남구 삼산동 1480-1번지 롯데백화점 울산점 1층	TEL. 052-960-5256</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 인천터미널점</span>	<span class="txt3">인천광역시 남구 관교동 15번지 롯데백화점인천터미널점  1층	TEL. 032-242-2185</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 일산점</span>	<span class="txt3">경기도 고양시 일산동구 장항동 784번지 롯데백화점 일산점 1층	TEL. 031-909-2965</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 잠실점</span>	<span class="txt3">서울특별시 송파구 잠실동 40-1 롯데백화점 잠실점 1층	TEL. 02-2143-1946</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 전주점</span>	<span class="txt3">전북 전주시 완산구 온고을로 2 롯데백화점 전주점 1층	TEL. 063-289-3149</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 중동점</span>	<span class="txt3">경기도 부천시 원미구 중동 1140번지 롯데백화점 중동점 1층	TEL. 032-320-7168</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 창원점</span>	<span class="txt3">경상남도 창원시 성산구 중앙대로 124번지 롯데백화점 창원점 1층	TEL. 055-279-3113</span>	
+<span class="txt4">MAP</span></li>
+<li class="txt1"><span class="txt2">롯데백화점 청량리점</span>	<span class="txt3">서울특별시 동대문구 전농1동 롯데백화점 청량리점 1층	TEL. 02-3707-1132</span>	
+<span class="txt4">MAP</span></li>
+
+
+</ul>    
+
+</div>
+
+ 
+</div>       
+</section>
+
+<section id="sec6" class="page6">
+<div id="page6"> 
+<h2>CONNECT WITH STONEHENGE</h2>
+<ul class="sns">
+<li><a href="#"><img src="images/sns01.jpg" alt=""><div class="cap"><p class="h"></p><p class="v"></p></div></a></li>
+<li><a href="#"><img src="images/sns02.jpg" alt=""><div class="cap"><p class="h"></p><p class="v"></p></div></a></li>
+<li><a href="#"><img src="images/sns03.jpg" alt=""><div class="cap"><p class="h"></p><p class="v"></p></div></a></li>
+<li><a href="#"><img src="images/sns04.jpg" alt=""><div class="cap"><p class="h"></p><p class="v"></p></div></a></li>
+<li><a href="#"><img src="images/sns05.jpg" alt=""><div class="cap"><p class="h"></p><p class="v"></p></div></a></li>
+</ul>
+
+<ul class="icon">
+<li><a href="https://www.facebook.com/stonehengekorea"><img src="images/sns_1.png" alt=""></a></li>  
+<li><a href="https://www.youtube.com/user/stonehengekorea"><img src="images/sns_2.png" alt=""></a></li> 
+<li><a href="https://blog.naver.com/stonehenge_"><img src="images/sns_3.png" alt=""></a></li> 
+<li><a href="https://www.instagram.com/stonehenge_official/"><img src="images/sns_4.png" alt=""></a></li> 
+<li><a href="https://pf.kakao.com/_aswxml"><img src="images/sns_5.png" alt=""></a></li></ul>
+
+
+
+<div class="foot">
+<div>
+<p class="foot1">
+CS CENTER<br><br>
+TEL: 02-3284-1300<br>
+<a href="#">1:1문의</a>
+<a href="#">FAQ</a>
+<a href="#">고객의 소리</a>
+</div>
+
+
+<div>
+<p class="foot2">
+LEGAL &amp; COOKIES<br><br>
+<a href="#">Terms Of Use</a><br>
+<a href="#">Privacy Policy</a><br></p>    
+</div>
+
+<div class="line"></div>
+<div class="foot">
+<p class="foot3">
+(주)우림에프엠지<br>
+대표이사 : 김윤호 사업자등록번호 : 108-86-09008 고객센터 : 02-3284-1300 주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층, 23층 우림FMG.<br>
+Copyright ⓒ 2018 STONEHENgE Jewelry. All Rights Reserved.    
+</p>    
+</div>
+</div>
+ </div><!--page5-->
+ 
+ <p class="scroll_btn"><a href="#sec6"><img src="images/drag-down.png" alt="scrollDown"></a></p> 
+</section>
+             
+
+<footer id="footer">
+<h2 class="foot3">(주)우림에프엠지<br>
+대표이사 : 김윤호 사업자등록번호 : 108-86-09008 고객센터 : 02-3284-1300 주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층, 23층 우림FMG.<br>
+Copyright ⓒ 2018 STONEHENgE Jewelry. All Rights Reserved.    
+  </h2>   
+</footer>
+</div><!--wrap-->
+
+
+
+
+<script src="mainjs/wow.js"></script>
+<script>
+wow = new WOW(
+{
+animateClass: 'animated',
+offset:       100
+}
+);
+wow.init();
+</script>
+
+   
+    
+
+</body>
+</html>
+
+
+
+
+
+

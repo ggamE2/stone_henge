@@ -1,0 +1,623 @@
+@charset "utf-8";
+
+
+section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page2 {
+    background-image: url(../images/p2_back.png);
+}
+
+.page6 {
+    background-image: url(../images/back_06.jpg);
+}
+
+
+.scroll_btn {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    animation-name: down;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+/*page2*/
+#page2 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page2 .layer {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    width: 600px;
+    height: 600px;
+}
+
+#page2 h1 {
+    position: absolute;
+    font: normal 60px "Bebas Neue";
+    line-height: 1.2;
+    left: 46%;
+    top: 6.5%;
+    font-family: 10;
+    letter-spacing: 2px;
+}
+
+#page2 h2 {
+    position: absolute;
+    font: bold 28px "Gowun Dodum";
+    line-height: 1.2;
+    left: 10%;
+    top: 14%;
+    font-family: 300;
+}
+
+#page2 h3 {
+    position: absolute;
+    font: normal 18px "Gowun Dodum";
+    left: 10%;
+    top: 22%;
+    font-family: 300;
+}
+
+
+#page2 .area {
+    position: absolute;
+    top: 32%;
+    left: 22%;
+}
+
+#page2 .area select {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #6bbac9;
+    color: #000;
+    font: normal 15px "Gowun Dodum";
+    background: #fff;
+    padding: 0 120px;
+    box-sizing: border-box;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+
+#page2 .btn1 {
+    position: absolute;
+    font: normal 15px "Gowun Dodum";
+    top: 35%;
+    left: 12%;
+    text-align: center;
+}
+
+#page2 .btn1 a {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #6bbac9;
+    color: #fff;
+    background: #6bbac9;
+    padding: 0 10px;
+    display: block;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+#page2 .btn2 {
+    position: absolute;
+    font: normal 15px "Gowun Dodum";
+    top: 40%;
+    left: 12%;
+    text-align: center;
+}
+
+#page2 .btn2 a {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #6bbac9;
+    color: #fff;
+    background: #6bbac9;
+    padding: 0 10px;
+    display: block;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+#page2 .btn1 a:hover {
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+#page2 .btn2 a:hover {
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+#page2 .s1 li {
+    float: left;
+    position: absolute;
+    top: 45%;
+    left: 12%;
+}
+
+#page2 .s1 .search input {
+    position: relative;
+    width: 248px;
+    height: 40px;
+    line-height: 40px;
+    font: bold 20px "NanumGothic";
+    box-sizing: border-box;
+    border: 2px solid #d2d2d2;
+    padding: 0 10px;
+}
+
+#page2 .s1 .search_btn {
+    position: relative;
+    float: right;
+    width: 50px;
+    height: 40px;
+    left: 250px;
+    font: normal 15px "Gowun Dodum";
+    background: #6bbac9;
+    text-align: center;
+    box-sizing: border-box;
+    border: border:1px solid #d2d2d2;
+    padding: 10px 0px;
+}
+
+
+#page2 .c2 {
+    width: 900px;
+    height: 440px;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    transition-delay: "0.5s";
+}
+
+#page2 .c2 ul {}
+
+#page2 .c2 ul li {
+    float: left;
+}
+
+#page2 .c2 .txt1 {
+    float: left;
+    font: normal 16px "Gowun Dodum";
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#page2 .c2 .txt2 {
+    float: left;
+    font: normal 16px;
+    "Gowun Dodum";
+    color: skyblue;
+    margin-right: 30px;
+}
+
+#page2 .c2 .txt3 {
+    float: left;
+    font: normal 16px;
+    "Malgun Gothic";
+    color: #000;
+    margin-right: 30px;
+}
+
+#page2 .c2 .txt4 {
+    font: normal 18px;
+    "Malgun Gothic";
+    color: skyblue;
+    float: right;
+}
+
+#page2 .c2 .txt4 a {
+    color: skyblue;
+}
+
+
+#page2 .content6 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    margin: 10px auto 0;
+    width: 300px;
+    height: 190px;
+    background: pink;
+}
+
+
+/*page3*/
+#page3 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page3 h2 {
+    font-size: 60px;
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    line-height: 1;
+    z-index: 2;
+}
+
+#page3 span {
+    font: normal 55px "Bebas Neue";
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    color: #e6cfaa;
+}
+
+#page3 .layer {
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    width: 600px;
+    height: 600px;
+}
+
+#page3 .c2 ul {
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    transition: (-50%, -50%);
+    width: 845px;
+}
+
+#page3 .c2 li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    top: 110px;
+    z-index: 2;
+    background: #000;
+}
+
+#page3 .c2 li:nth-child(4) {
+    margin-right: 0;
+}
+
+#page3 .c2 li:last-child {
+    margin-right: 0;
+}
+
+#page3 .c2 li img {
+    width: 200px;
+}
+
+#page3 .c2 li img:hover {
+    background: #000;
+    opacity: 0.8;
+}
+
+
+/*page4*/
+#page4 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page4 h2 {
+    font-size: 60px;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    line-height: 0.9;
+    z-index: 2;
+}
+
+#page4 span {
+    font: normal 55px "Bebas Neue";
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    color: #e6cfaa;
+}
+
+#page4 .layer {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    width: 600px;
+    height: 600px;
+}
+
+#page4 .c2 ul {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transition: (-50%, -50%);
+}
+
+#page4 .c2 li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    top: 110px;
+    z-index: 2;
+    background: #000;
+}
+
+#page4 .c2 li:nth-child(4) {
+    margin-right: 0;
+}
+
+#page4 .c2 li img {
+    width: 200px;
+}
+
+#page4 .c2 li img:hover {
+    background: #000;
+    opacity: 0.8;
+}
+
+
+/*page5*/
+#page5 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page5 h2 {
+    font-size: 60px;
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    line-height: 1;
+    z-index: 2;
+}
+
+#page5 span {
+    font: normal 55px "Bebas Neue";
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    color: #e6cfaa;
+}
+
+#page5 .layer {
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    width: 600px;
+}
+
+#page5 .c2 ul {
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    transition: (-50%, -50%);
+    width: 845px;
+}
+
+#page5 .c2 li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    top: 110px;
+    z-index: 2;
+    background: #000;
+}
+
+#page5 .c2 li:nth-child(4) {
+    margin-right: 0;
+}
+
+#page5 .c2 li:last-child {
+    margin-right: 0;
+}
+
+#page5 .c2 li img {
+    width: 200px;
+}
+
+#page5 .c2 li img:hover {
+    background: #000;
+    opacity: 0.8;
+}
+
+
+/*page6*/
+#page6 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page6 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    z-index: 3;
+    left: 30%;
+    font-family: 100;
+}
+
+#page6 ul {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#page6 .sns li {
+    float: left;
+    margin-right: 20px;
+}
+
+#page6 .sns li:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+#page6 .sns img {
+    width: 200px;
+}
+
+#page6 .icon {
+    position: relative;
+    top: 450px;
+    left: 630px;
+}
+
+#page6 .icon li {
+    float: left;
+    margin-right: 10px;
+}
+
+#page6 .icon li:hover {
+    opacity: 0.8;
+}
+
+#page6 .foot {
+    position: relative;
+    background: #57d9db;
+}
+
+#page6 .foot {
+    position: relative;
+    top: 590px;
+    left: 100px;
+}
+
+#page6 .foot>div {
+    float: left;
+    margin-right: 400px;
+}
+
+#page6 .foot>div:nth-child(2) {
+    float: left;
+    margin-right: 0px;
+}
+
+#page6 .foot p {
+    font: bold 24px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .foot a {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .foot1 a:hover {
+    color: #000;
+}
+
+#page6 .foot2 a:hover {
+    color: #000;
+}
+
+#page6 .foot3 {
+    text-align: center;
+}
+
+#page6 .foot3 a {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .line {
+    position: relative;
+    margin-top: 40px;
+    width: 1400px;
+    height: 2px;
+    background: #fff;
+}
+
+#page6 .foot3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#page6 .foot3 p {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+
+
+#footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: #57d9db;
+}
+
+#footer>div a :hover {
+    color: #000;
+}
+
+#footer .foot3 {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    font: bold 13px "Malgun Gothic";
+    color: #fff;
+    margin-top: 10px;
+}
+
+#footer .foot3 h2 {
+    font: bold 13px "Malgun Gothic";
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+

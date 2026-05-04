@@ -1,0 +1,553 @@
+@charset "utf-8";
+
+
+section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page1 {
+    background: url(../images/background.jpg);
+}
+
+.page2 {
+    background: #fff;
+}
+
+.page3 {
+    background: #fff;
+}
+
+.page4 {
+    background-image: url(../images/p4_back.jpg);
+}
+
+.page5 {
+    background: none;
+}
+
+.page6 {
+    background-image: url(../images/back_06.png);
+}
+
+
+
+
+/*page1*/
+#page1 {
+    margin: 0 auto;
+}
+
+#page1 h2 {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transition(-50%, -50%);
+    font: normal 90px "Bebas Neue";
+    letter-spacing: 8px;
+    z-index: 3;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#page1 video {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 1000px;
+    height: 750px;
+}
+
+
+/*page2*/
+#page2 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page2 img {
+    width: 510px;
+    height: 600px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+#page2 h2 {
+    font-size: 80px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+
+
+/*page3*/
+#page3 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page3 img {
+    width: 505px;
+    height: 600px;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+
+#page3 h2 {
+    font: normal 84px "Bebas Neue";
+    position: relative;
+    top: 14%;
+    right: 20%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#page3 h3 {
+    font: bold 38px "Gowun Dodum";
+    /*font:bold 38px "Do Hyeon";*/
+    letter-spacing: 1px;
+    position: relative;
+    top: 17%;
+    right: 20%;
+    text-align: center;
+    margin-top: 10px;
+    color: #383838;
+}
+
+#page3 h4 {
+    font: normal 20px "Gowun Dodum";
+    position: relative;
+    top: 18%;
+    right: 20%;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+
+
+
+
+
+/*page4*/
+#page4 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page4 h2 {
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    letter-spacing: 1px;
+    line-height: 1;
+    left: 60px;
+    z-index: 3;
+}
+
+
+
+#page4 h2 span { 
+    animation: ani03 4s infinite;
+    animation-delay: 0.3s;
+    line-height: 1.3;
+    /*-webkit-text-stroke: 1px #fff;*/
+}
+
+@keyframes ani03 {
+    0% {
+        color:#493521;
+    }
+
+    40% {
+        color:#3d3d3d;
+    }
+    
+    70% {
+        color:#cf8282;
+    }
+
+    100% {
+        color:#484848;
+    }
+}
+
+
+
+#page4 ul li img {
+    width: 250px;
+}
+
+#page4 ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#page4 .sub1 {
+    position: absolute;
+    top: 12%;
+    right: 30px;
+    float: right;
+    z-index: 2;
+    width: 900px;
+}
+
+#page4 .sub1 li {
+    float: left;
+    margin-right: 20px;
+}
+
+#page4 .sub1 li .cap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(rgba(247, 9, 82, 0.3), rgba(150, 0, 255, 0.25));
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 28px;
+}
+
+#page4 .sub1 li:hover .cap {
+    opacity: 1;
+    font-size: 28px;
+}
+
+#page4 .sub1 li .cap .v {
+    position: relative;
+    top: -50%;
+    left: 0%;
+    transition: 0.3s;
+    color: none;
+    opacity: 0;
+}
+
+#page4 .sub1 li:hover .cap .v {
+    font: normal 35px "Bebas Neue";
+    position: relative;
+    top: 45%;
+    left: 0%;
+    margin-top: -30px;
+    text-align: center;
+    opacity: 1;
+}
+
+
+#page4 .sub2 {
+    position: absolute;
+    top: 39%;
+    right: -50px;
+    float: right;
+    z-index: 2;
+    width: 900px;
+}
+
+#page4 .sub2 li {
+    float: left;
+    margin-right: 20px;
+}
+
+#page4 .sub2 li .cap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(rgba(247, 9, 82, 0.3), rgba(150, 0, 255, 0.25));
+    font: normal 35px "Bebas Neue";
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#page4 .sub2 li:hover .cap {
+    opacity: 1;
+    /*font-size: 30px;*/
+}
+
+#page4 .sub2 li .cap .v {
+    position: relative;
+    top: -50%;
+    left: 0%;
+    font: normal 35px "Bebas Neue";
+    transition: 0.3s;
+}
+
+#page4 .sub2 li:hover .cap .v {
+    font: normal 35px "Bebas Neue";
+    position: relative;
+    top: 45%;
+    left: 0%;
+    margin-top: -30px;
+    text-align: center;
+}
+
+
+/*page5*/
+#page5 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#page5 h2 {
+    font-size: 60px;
+    position: absolute;
+    top: 25%;
+    left: 130px;
+    z-index: 3;
+}
+
+#page5 h3 {
+    font: bold 30px "Gowun Dodum";
+    position: absolute;
+    top: 42%;
+    left: 130px;
+    z-index: 3;
+}
+
+#page5 .c4 {
+    position: absolute;
+    transform: (-50%, -50%);
+    top: 10%;
+    left: 55%;
+    float: left;
+    width: 480px;
+    height: 600px;
+}
+
+#page5 .c4 video {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: (-50%, -50%);
+    width: 480px;
+    height: 600px;
+}
+
+#page5 .c4 video :hover {
+    opacity: 0.5;
+}
+
+
+#page5 .c4 .icon2 {
+    position: absolute;
+    top: -7%;
+    right: -19%;
+    opacity: 0;
+}
+
+#page5 .c4 .icon2 img{width: 60%;}
+
+#page5 .c4:hover .icon2 {
+    opacity: 1;
+}
+
+
+#page5 .c4 .cap{position:absolute;top:0;left:0; width: 480px; height:600px; background:rgba(255,255,255,0.1); transition: all 0.5s; opacity: 0;}
+#page5 .c4:hover .cap{opacity: 1;}
+
+#page5 .c4 .cap .circle{width:150px;height:150px;transition: all 0.3s;margin:-75px 0 0 -75px;}
+
+
+
+#page5 .c4 .cap .circle{position:absolute;top:50%;left:-2%;}
+#page5 .c4:hover .cap .circle{position:absolute;top:50%;left:50%;transform: rotate(360deg);}
+
+
+#page5 .c4 .cap .circle a{display: block;width:150px;height:150px;background:rgba(0,0,0,0.5);color:#fff;font-size:20px;font-weight: bold;border-radius: 50%;
+     line-height: 150px;text-align: center;}
+
+
+
+
+
+#page5 span {
+    color: #c99a68;
+}
+
+#page5 .layer {
+    position: absolute;
+    top: 47%;
+    left: 10%;
+}
+
+#page5 .layer img {
+    width: 300px;
+    height: 60px;
+}
+
+
+
+/*page6*/
+#page6 {
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+}
+
+#page6 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    z-index: 3;
+    left: 30%;
+    font-family: 100;
+}
+
+#page6 ul {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#page6 li {
+    float: left;
+    margin-right: 20px;
+}
+
+#page6 li:hover {
+    opacity: 0.8;
+}
+
+#page6 .sns img {
+    width: 200px;
+}
+
+#page6 .sns li:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+
+#page6 .icon {
+    position: relative;
+    top: 450px;
+    left: 630px;
+}
+
+#page6 .icon li {
+    float: left;
+    margin-right: 10px;
+}
+
+
+#page6 .foot {
+    position: relative;
+    background: #57d9db;
+}
+
+#page6 .foot {
+    position: relative;
+    top: 590px;
+    left: 100px;
+}
+
+#page6 .foot > div {
+    float: left;
+    margin-right: 400px;
+}
+
+#page6 .foot > div:nth-child(2) {
+    float: left;
+    margin-right: 0px;
+}
+
+#page6 .foot p {
+    font: bold 24px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .foot a {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .foot1 a:hover {
+    color: #000;
+}
+
+#page6 .foot2 a:hover {
+    color: #000;
+}
+
+#page6 .foot3 {
+    text-align: center;
+}
+
+#page6 .foot3 a {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+#page6 .line {
+    position: relative;
+    margin-top: 40px;
+    width: 1400px;
+    height: 2px;
+    background: #fff;
+}
+
+#page6 .foot3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#page6 .foot3 p {
+    font: bold 16px "Malgun Gothic";
+    color: #fff;
+}
+
+
+
+/*----footer----*/
+#footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background:#8ad6d8zzz;
+}
+
+#footer .foot3 {
+    width: 1500px;
+    height: 70px;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    font: bold 13px "Malgun Gothic";
+    color: #fff;
+    margin-top: 10px;
+}
+
+#footer .foot3 h2 {
+    font: bold 13px "Malgun Gothic";
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+#wrap{position: relative; width:100%; margin: 0 auto; }
+#contents{position: relative; width: 100%; overflow: hidden; margin:0 auto;}
+#contents h1{position: relative; margin: 80px auto; font:bold 30px "Gowun Dodum"; 
+text-align: center; }
+
+
+/*----------cont1------------*/
+
+#contents .cont1 {
+    position: relative;
+    width: 100%;
+    margin: 100px auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont1>div{position:relative; width: 50%; float: left; }
+#contents .cont1>div img{width: 100%;}
+#contents .cont1>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont1>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont1>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont1>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+/*----------cont2------------*/
+
+#contents .cont2 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont2>div{position:relative; width: 50%; float: left; }
+#contents .cont2>div img{width: 100%;}
+#contents .cont2>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont2>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont2>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont2>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+
+
+
+
+/*----------cont5------------*/
+
+#contents .cont3 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont3>div{position:relative; width: 50%; float: left; }
+#contents .cont3>div img{width: 100%;}
+#contents .cont3>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont3>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont3>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont3>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+
+
+
+
+/*----------cont5------------*/
+
+#contents .cont4 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont4>div{position:relative; width: 50%; float: left; }
+#contents .cont4>div img{width: 100%;}
+#contents .cont4>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont4>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont4>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont4>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+
+
+/*----------cont5------------*/
+
+#contents .cont5 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont5>div{position:relative; width: 50%; float: left; }
+#contents .cont5>div img{width: 100%;}
+#contents .cont5>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont5>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont5>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont5>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+/*----------cont5------------*/
+
+#contents .cont6 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont6>div{position:relative; width: 50%; float: left; }
+#contents .cont6>div img{width: 100%;}
+#contents .cont6>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont6>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont6>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont6>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+
+
+
+
+/*----------cont5------------*/
+
+#contents .cont7 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont7>div{position:relative; width: 50%; float: left; }
+#contents .cont7>div img{width: 100%;}
+#contents .cont7>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont7>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont7>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+#contents .cont7>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+
+
+
+/*----------cont8------------*/
+
+#contents .cont8 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 70px;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+
+#contents .cont8>div{position:relative; width: 50%; float: left; }
+#contents .cont8>div img{width: 100%;}
+#contents .cont8>div h2{position:relative; font:normal 20px "Gowun Dodum"; padding: 20px; }
+
+
+
+#contents .cont8>div p {
+    position:absolute;
+    width: 200px;
+    height: 40px;
+    background:#8ad6d8;
+    transform: translate(50%,50%);
+    color: #fff;
+    font: bold 16px "Malgun Gothic";
+    transform: rotateY(30px);
+    transition: all 1s;
+    text-align: center;
+    line-height:40px;
+}
+
+#contents .cont8>div p a {
+    margin: 0 auto; 
+    width: 200px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    line-height: 40px;
+    color: #000;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+#contents .cont8>div p a:hover{background: #fff; color:#000; border: 1px solid #8ad6d8;}
+
+
+/*page*/
+#contents .page{position: relative; width: 12%; display: flex; justify-content:space-around; margin:50px auto;  text-align: center; 
+ }
+#contents .page li{}
+#contents .page li img{width:35px;}
+#contents .page li img:hover{opacity: 0.5;}
+
+
+/*page6*/
+#page6{width:100%;height:750px; position: relative;background:#8ad6d8; margin: 0 auto; } 
+#page6 h2{font:bold 37px "Malgun Gothic"; width: 100%;  position:relative; top:4%; text-align: center; font-family: 100; }
+#page6 .sns{position: relative;  width: 100%;  margin: 0 auto;}
+#page6 li{position:relative; float: left; width:19%;  margin-right:1.25%;}
+#page6 li:last-child{margin-right: 0;}
+#page6 .sns li img{width: 100%;}
+#page6 .sns li:hover{transform: translateY(-20px); transition:all 0.5s; }
+#page6 li:hover{opacity:0.8;}
+
+
+#page6 .icon{position: relative; width:100%; margin:40px auto 0; }
+#page6 .icon li{position: relative; float:left; width: 19%; margin-right: 1.25%; text-align: center; }
+#page6 .icon li:last-child{margin-right: 0; }
+
+#page6 .foot{position:relative; width:70%; height: 150px; margin: 130px auto 0; }
+#page6 .foot>div{position: relative; float:left; width:50%;}
+#page6 .foot p{font:bold 24px "Malgun Gothic"; color:#fff;}
+#page6 .foot a{font:bold 16px "Malgun Gothic"; color:#fff;}
+#page6 .foot2{padding-left: 25%;}
+#page6 .foot1 a:hover{color:#000;}
+#page6 .foot2 a:hover{color:#000;}
+
+#page6 .line{position: relative; width:90%; margin:20px auto; height: 1.5px; background:#fff;}
+#page6 .foot3{width: 90%; height: 80px; text-align: center; margin: 0 auto; }
+#page6 .foot3 p{font:bold 13px "Malgun Gothic"; color:#fff; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+

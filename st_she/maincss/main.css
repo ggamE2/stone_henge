@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+
+section{width:100%;overflow: hidden;position:relative;background-size:cover;background-position:center;background-attachment: fixed;}
+
+.page1{background:url(../images/p1_back.png); background-color:rgba(189,77,64,0.5);}
+.page2{background-image:url(../images/back_square3.png); background-color:rgba(189,77,64,0.5);}
+.page3{background-image:url(../images/back_square_right.png);background-color:rgba(189,77,64,0.5);}
+.page4{background-image:url(../images/back_square3.png);background-color:rgba(189,77,64,0.5);}
+.page5{background-image:url(../images/back_06.png); background-color:rgba(189,77,64,0.5);}
+
+
+.menu_r{position:fixed;top:50%;right:15px;transform: translateY(-50%);z-index: 50;}
+.gnb_r li{height:3px;margin-bottom:20px;}
+.gnb_r li:last-child{height:3px;margin-bottom:0px;}
+.gnb_r a{float:right;display: block;width:20px;height:3px;background:#fff;transition:all 0.5s;}
+
+.gnb_r li:hover a{width:40px;height:3px;}
+.gnb_r li.on a{width:40px;height:3px;}
+
+
+.scroll_btn{position:absolute;left:50%;bottom:30px;transform: translateX(-50%);animation-name: down;animation-duration: 1.5s;animation-iteration-count: infinite;}
+
+@keyframes down{
+    0%{transform: translateY(0);}    
+    50%{transform: translateY(25px);}    
+    100%{transform: translateY(0);}    
+}
+
+
+
+
+/*page1*/
+#page1{width: 1500px; position: absolute; height: 1000px; margin: 0 auto;}
+#page1 h2{position: absolute; top:30%; left:33%; transition(-50%,-50%); font:normal 90px "Bebas Neue"; letter-spacing:8px; z-index: 3;} 
+#page1 span{font:normal 90px "Bebas Neue"; color:#cf938a}
+#page1 video{position:absolute; top:12%; left:45%; 7ransform:translate(-50%,-50%); width:500px; height: 500px;}
+
+
+/*page2*/
+#page2{width: 1500px;height:1000px;position: absolute;margin: 0 auto; } 
+#page2 h2{font-size:60px; position:absolute; top:110px; left:100px; z-index: 2; letter-spacing:-3px;}
+#page2 span{font:normal 55px "Bebas Neue"; position:absolute; top:80px; left:100px; color:#fff4f2; letter-spacing: 1px;}
+#page2 .back1{position:absolute; top:100px; left:150px;}
+#page2 .back1 img{width: 600px;} 
+#page2 .c2 ul{position:absolute; top:5%; left:42%; transition:(-50%,-50%);}
+#page2 .c2 li{position:relative; float:left; margin-right:20px; margin-bottom: 50px; top:110px; z-index: 2; background: #000;}
+#page2 .c2 li:nth-child(3){margin-right: 0;}
+#page2 .c2 li img{width: 230px; }
+#page2 .c2 li img:hover{background:#000; opacity:0.8;}
+#page2 ul li .cap{position: absolute;top: 0;left: 0;
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(153,22,212,0.25));
+    width: 230px;height: 230px;
+    transition: all 0.5s;
+    opacity: 0;}
+#page2 ul li .cap .h{width: 60px;height: 1px;
+    background: rgba(255,255,255,1);
+    position: absolute;top: 50%;left: -50%;margin-left: -30px;transition: all 0.5s;}
+#page2 ul li .cap .v{width: 1px;height: 60px;background: rgba(255,255,255,1);
+    position: absolute;top: -50%;left: 50%;margin-top: -30px;
+    transition: all 0.5s;}
+#page2 ul li:hover .cap{opacity: 1;}
+#page2 ul li:hover .cap .h{top:50%; left:50%;}
+#page2 ul li:hover .cap .v{top:50%; left:50%;}
+
+
+
+/*page3*/
+#page3{width: 1300px; height:1000px; position: absolute;} 
+#page3 h2{font-size:55px; position:absolute; top:110px; right:-90px; z-index: 2;}
+#page3 span{font:normal 55px "Bebas Neue"; position:absolute; top:80px; left:200px; color:#fff4f2;}
+#page3 .back2{position:absolute; top:100px; right:-50px;}
+#page3 .back2 img{width: 600px;} 
+#page3 .c2{width: 730px; height: 500px;}
+#page3 .c2 ul{position:absolute; top:5%; right:33%; transition:(-50%,-50%);}
+#page3 .c2 li{position:relative; float:right; margin-left:20px; margin-bottom:40px; top:110px; z-index: 2; background: #000;}
+#page3 .c2 li:nth-child(3){margin-right: 0;}
+#page3 .c2 li:nth-child(4){margin-right:115px;}
+#page3 .c2 li img{width: 230px; }
+#page3 .c2 li img:hover{background:#000; opacity:0.8;}
+
+#page3 ul li .cap{position: absolute;top: 0;left: 0;
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(153,22,212,0.25));
+    width: 230px;height: 230px;
+    transition: all 0.5s;
+    opacity: 0;}
+#page3 ul li .cap .h{width: 60px;height: 1px;
+    background: rgba(255,255,255,1);
+    position: absolute;top: 50%;left: -50%;margin-left: -30px;transition: all 0.5s;}
+#page3 ul li .cap .v{width: 1px;height: 60px;background: rgba(255,255,255,1);
+    position: absolute;top: -50%;left: 50%;margin-top: -30px;
+    transition: all 0.5s;}
+#page3 ul li:hover .cap{opacity: 1;}
+#page3 ul li:hover .cap .h{top:50%; left:50%;}
+#page3 ul li:hover .cap .v{top:50%; left:50%;}
+
+
+
+/*page4*/
+#page4{width:1500px;height:1000px;position: absolute; margin: 0 auto;} 
+#page4 h2{font-size:60px; position:absolute; top:110px; left:130px; z-index: 2; letter-spacing:-3px;}
+#page4 span{font:normal 55px "Bebas Neue"; position:absolute; top:80px; left:130px; color:#fff4f2; letter-spacing: 1px;}
+#page4 .back3{position:absolute; top:100px; left:150px;}
+#page4 .back3 img{width: 600px;}
+#page4 .c2{width: 730px; height: 500px;}
+#page4 .c2 ul{position:absolute; top:5%; left:42%; transition:(-50%,-50%);}
+#page4 .c2 li{position:relative; float:left; margin-right:20px; margin-bottom: 50px; top:110px; z-index: 2; background: #000;}
+#page4 .c2 li:nth-child(3){margin-right: 0;}
+#page4 .c2 li img{width: 230px; }
+#page4 .c2 li img:hover{background:#000; opacity:0.8;}
+#page4 ul li .cap{position: absolute;top: 0;left: 0;
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(153,22,212,0.25));
+    width: 230px;height: 230px;
+    transition: all 0.5s;
+    opacity: 0;}
+#page4 ul li .cap .h{width: 60px;height: 1px;
+    background: rgba(255,255,255,1);
+    position: absolute;top: 50%;left: -50%;margin-left: -30px;transition: all 0.5s;}
+#page4 ul li .cap .v{width: 1px;height: 60px;background: rgba(255,255,255,1);
+    position: absolute;top: -50%;left: 50%;margin-top: -30px;
+    transition: all 0.5s;}
+#page4 ul li:hover .cap{opacity: 1;}
+#page4 ul li:hover .cap .h{top:50%; left:50%;}
+#page4 ul li:hover .cap .v{top:50%; left:50%;}
+
+
+/*page5*/
+#page5{width:1500px;height:1000px; position: absolute; margin: 0 auto;} 
+#page5 h2{font-size:40px; position:absolute; top:10%; z-index:3; left:30%; font-family: 100;}
+#page5 ul{position: absolute; top:20%; left:15%;}
+#page5 .sns li{float:left; margin-right:20px;}
+#page5 .sns li:hover{transform: translateY(-20px); transition: all 0.5s; opacity: 0.8;}
+#page5 .sns img{width: 200px;}
+#page5 .icon{position: relative; top:450px; left:630px;}
+#page5 .icon li{float:left; margin-right: 10px;}
+#page5 .icon li:hover{opacity:0.8;}
+
+#page5 .foot{position:relative; background:#57d9db;}
+#page5 .foot{position: relative; top:590px; left:100px;}
+#page5 .foot>div{float:left; margin-right:400px;}
+#page5 .foot>div:nth-child(2){float:left; margin-right:0px; }
+#page5 .foot p{font:bold 24px "Malgun Gothic"; color:#fff;}
+#page5 .foot a{font:bold 16px "Malgun Gothic"; color:#fff;}
+
+#page5 .foot1 a:hover{color:#000;}
+#page5 .foot2 a:hover{color:#000;}
+
+#page5 .foot3{text-align: center;}
+#page5 .foot3 a{font:bold 16px "Malgun Gothic"; color:#fff;}
+
+#page5 .line{ position: relative; margin-top:40px; width: 1400px; height: 2px; background:#fff;}
+#page5 .foot3{text-align: center; margin-top: 50px;}
+#page5 .foot3 p{font:bold 16px "Malgun Gothic"; color:#fff;}
+
+
+
+#footer{width:100%;height:100px; position: absolute; background:#57d9db; } 
+#footer>div a :hover{color:#000;}
+#footer .foot3{width:1500px;height:70px; position: absolute;  margin: 0 auto; text-align: center; font:bold 13px "Malgun Gothic"; color:#fff; margin-top: 10px;}
+#footer .foot3 h2{font:bold 13px "Malgun Gothic"; color:#fff; margin-top: 20px; text-align: center; }
+
+
+
+
+
+
+
+

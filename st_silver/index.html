@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>st_silver</title>
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="maincss/animate-ex.css">
+
+    <script src="mainjs/jquery-2.1.1.min.js"></script>
+    <script src="mainjs/jquery.scrollTo.min.js"></script>
+
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- 마우스 휠을 움직임 -->
+    <script src="mainjs/jquery-ui.min.js"></script>
+    <script src="mainjs/jquery.easing.1.3.js"></script>
+    <script src="mainjs/prefixfree.min.js"></script>
+    <script src="mainjs/jquery.mousewheel.min.js"></script>
+
+    <script src="common/js/common.js"></script>
+    <script src="mainjs/main.js"></script>
+</head>
+
+
+
+<body>
+    <div id="wrap">
+        <header class="header">
+
+            <div class="head_menu">
+                <h1><a href="../st_main/index.html"><img src="images/logo.png" alt=""></a></h1>
+
+                <nav class="nav">
+                    <ul class="gnb">
+
+                        <li><a href="../st_brandstory/index.html"><span class="triangle"></span>
+                                <h3>BRAND</h3>
+                            </a>
+                            <ul class="sub1 subm">
+                                <li><a href="../st_brandstory/index.html">
+                                        BRAND STORY
+                                        <img src="images/sub1_story.jpg" alt="">
+                                    </a></li>
+                                <li><a href="#">
+                                        BEAUTIFUL MOMENTS
+                                        <img src="images/sub1_5.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_special/index.html">SPECIAL
+                                        <img src="images/sub1_6.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_ed/index.html">EDITORIAL
+                                        <img src="images/sub1_3.jpg" alt="">
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="../st_she/index.html"><span class="triangle"></span>
+                                <h3>COLLECTION</h3>
+                            </a>
+                            <ul class="sub2 subm">
+                                <li><a href="../st_she/index.html">SHE<br>
+                                        <img src="images/sub3_2.jpg" alt=""></a></li>
+                                <li><a href="../st_silluet/index.html">SILHOUETTE<br>
+                                        <img src="images/sub3_1.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_honeymoon/index.html">HONEYMOON<br>
+                                        <img src="images/sub3_11.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_watch/index.html">WATCH<br>
+                                        <img src="images/sub3_9.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_silver/index.html">SILVER<br>
+                                        <img src="images/sub3_5.jpg" alt="">
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="../st_necklace/index.html"><span class="triangle"></span>
+                                <h3>ITEM</h3>
+                            </a>
+                            <ul class="sub3 subm">
+                                <li><a href="../st_necklace/index.html">NECKLACE
+                                        <img src="images/sub2_2.jpg" alt=""></a>
+                                </li>
+                                <li><a href="../st_earring/index.html">EARRINGS
+                                        <img src="images/sub3_15.jpg" alt=""></a>
+                                </li>
+                                <li><a href="../st_ring/index.html">RING <br>
+                                        <img src="images/sub2_4.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_bracelet/index.html">BRACELET
+                                        <img src="images/sub3_ba.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_watch/index.html">WATCH
+                                        <img src="images/sub3_90.jpg" alt="">
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="../st_style/index.html"><span class="triangle"></span>
+                                <h3>ISSUE</h3>
+                            </a>
+                            <ul class="sub4 subm">
+                                <li><a href="../st_style/index.html">STYLE<br>
+                                        <img src="images/sub1_1.jpg" alt="">
+                                    </a></li>
+                                <li><a href="../st_gallery/index.html">GALLERY
+                                        <img src="images/sub4_2.png" alt="">
+                                    </a></li>
+                                <li><a href="../st_news(Reactive)/index.html">NEWS <br>
+                                        <img src="images/sub4_3.jpg" alt="">
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="../st_store/index.html"><span class="triangle"></span>
+                                <h3>STORE</h3>
+                            </a>
+                            <ul class="sub5 subm">
+                                <li><a href="../st_store/index.html">FIND STORE
+                                        <img src="images/sub5_1.jpg" alt=""></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="gnb2">
+                        <li class="user"><a href="#"><img src="images/user.png" alt=""></a></li>
+                        <li class="search_bar"><a href="#"><img src="images/search_bar.png" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--head_menu-->
+
+
+            <div class="gnb_back"></div>
+
+            <div class="search_box">
+                <div class="search_in">
+                    <input type="text" placeholder="#LOVE KNOT COLLECTION" class="search_txt">
+                    <input type="button" value="검색" class="search_btn">
+                </div>
+            </div>
+            <!--search_box-->
+
+            <div class="user_in">
+                <p class="close"><a href="#"><img src="images/close.png" alt=""></a></p>
+                <h2>로그인</h2>
+                <h3>회원가입 시 등록하신 이메일과 비밀번호를 입력해주세요.<br>
+                    통합 아이디로 FAMILY 사이트의 모든 서비스를 안전하게 이용하실 수 있습니다.</h3>
+
+                <div class="cont1">
+                    <input type="text" placeholder="id" class="id">
+                    <input type="text" placeholder="pw" class="pw">
+                    <p class="btn"><a href="#">로그인하기</a></p>
+                    <ul>
+                        <li class="id_save"><input type="checkbox">아이디 저장하기</li>
+                        <li class="id_search"><a href="#">아이디 찾기</a>/</li>
+                        <li class="pw_search"><a href="#">비밀번호 찾기</a></li>
+                    </ul>
+                    <div class="line"></div>
+                    <p class="join">아직 회원이 아니신가요? <span><a
+                                href="https://stonehenge.co.kr/index_subpage.html?mainwhat=9&subwhat=2">회원가입</a></span>
+                    </p>
+                </div>
+                <!--user_in-->
+
+
+                <div class="cont2">
+                    <ul>
+                        <li><a href="https://nid.naver.com/"><img src="images/icon1.gif" alt="">
+                                <p>네이버 로그인</p>
+                            </a></li>
+                        <li><a href="#"><img src="images/icon2.gif" alt="">
+                                <p>페이스북 로그인</p>
+                            </a></li>
+                        <li><a
+                                href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Fsetting#login"><img
+                                    src="images/icon3.gif" alt="">
+                                <p>카카오톡 로그인</p>
+                            </a></li>
+                    </ul>
+                </div>
+                <!--cont2-->
+            </div>
+            <!--user_in-->
+
+        </header>
+
+        <div class="menu_r">
+            <ul class="gnb_r">
+                <li class="on"><a href="#sec1"></a></li>
+                <li><a href="#sec2"></a></li>
+                <li><a href="#sec3"></a></li>
+                <li><a href="#sec4"></a></li>
+                <li><a href="#sec5"></a></li>
+                <li><a href="#sec6"></a></li>
+            </ul>
+        </div>
+
+
+        <section id="sec1" class="page1">
+            <div id="page1">
+                <h2 class="txt wow fadeInDown" data-wow-delay="0.4s">SILVER<br>COLLECTION</h2>
+                <video autoplay muted>
+                    <source src="video/silver2.mp4">
+                </video>
+            </div><!--page1-->
+            <p class="scroll_btn"><a href="#sec4"><img src="images/drag-down.png" alt="scrollDown"></a></p>
+
+        </section>
+
+        <section id="sec2" class="page2">
+            <div id="page2">
+                <h2 class="txt wow fadeInLeft" data-wow-delay="0.7s">SILVER<br>COLLECTION<br><span>earring</span></h2>
+                <img class="layer wow fadeInLeft" data-wow-delay="0.4s" src="images/back_s01.jpg" alt="">
+                <div class="c2">
+                    <ul>
+                        <li><a href="#"><img src="images/r1.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r2.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r3.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r4.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r5.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r6.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r7.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/r8.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div><!--c2-->
+
+            </div><!--page2-->
+            <p class="scroll_btn"><a href="#sec4"><img src="images/drag-down.png" alt="scrollDown"></a></p>
+
+        </section>
+
+        <section id="sec3" class="page3">
+            <div id="page3">
+                <h2 class="txt wow fadeInLeft" data-wow-delay="0.7s">SILVER<br>COLLECTION<br><span>necklace</span></h2>
+                <img class="layer wow fadeInRight" data-wow-delay="0.4s" src="images/back_4.png" alt="">
+                <div class="c2">
+                    <ul>
+                        <li><a href="#"><img src="images/n1.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n2.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n3.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n4.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n5.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n6.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n7.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/n8.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div><!--page3-->
+            <p class="scroll_btn"><a href="#sec4"><img src="images/drag-down.png" alt="scrollDown"></a></p>
+
+        </section>
+
+        <section id="sec4" class="page4">
+            <div id="page4">
+                <h2 class="txt wow fadeInLeft" data-wow-delay="0.7s">SILVER<br>COLLECTION<br><span>bracelet</span></h2>
+
+                <img class="layer wow fadeInRight" data-wow-delay="0.4s" src="images/back_br.jpg" alt="">
+                <div class="c2">
+                    <ul>
+                        <li><a href="#"><img src="images/b1.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b2.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b3.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b4.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b5.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b6.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b7.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                        <li><a href="#"><img src="images/b8.jpg" alt="">
+                                <div class="cap">
+                                    <p class="h"></p>
+                                    <p class="v"></p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div><!--page4-->
+            <p class="scroll_btn"><a href="#sec4"><img src="images/drag-down.png" alt="scrollDown"></a></p>
+
+        </section>
+
+
+
+        <section id="sec6" class="page6">
+            <div id="page6">
+                <h2>CONNECT WITH STONEHENGE</h2>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns01.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns02.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns03.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns04.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sns05.jpg" alt=""></a></li>
+                </ul>
+
+                <ul class="icon">
+                    <li><a href="https://www.facebook.com/stonehengekorea"><img src="images/sns_1.png" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/user/stonehengekorea"><img src="images/sns_2.png" alt=""></a>
+                    </li>
+                    <li><a href="https://blog.naver.com/stonehenge_"><img src="images/sns_3.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/stonehenge_official/"><img src="images/sns_4.png" alt=""></a>
+                    </li>
+                    <li><a href="https://pf.kakao.com/_aswxml"><img src="images/sns_5.png" alt=""></a></li>
+                </ul>
+
+
+
+                <div class="foot">
+                    <div>
+                        <p class="foot1">
+                            CS CENTER<br><br>
+                            TEL: 02-3284-1300<br>
+                            <a href="#">1:1문의</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">고객의 소리</a>
+                    </div>
+
+
+                    <div>
+                        <p class="foot2">
+                            LEGAL &amp; COOKIES<br><br>
+                            <a href="#">Terms Of Use</a><br>
+                            <a href="#">Privacy Policy</a><br>
+                        </p>
+                    </div>
+
+                    <div class="line"></div>
+                </div>
+            </div><!--page6-->
+            <p class="scroll_btn"><a href="#sec4"><img src="images/drag-down.png" alt="scrollDown"></a></p>
+        </section>
+    </div><!-- wrap / -->
+
+    <footer id="footer">
+        <h2 class="foot3">(주)우림에프엠지<br>
+            대표이사 : 김윤호 사업자등록번호 : 108-86-09008 고객센터 : 02-3284-1300 주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층, 23층 우림FMG.<br>
+            Copyright ⓒ 2018 STONEHENgE Jewelry. All Rights Reserved.
+        </h2>
+    </footer>
+
+    <script src="mainjs/wow.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100
+            }
+        );
+        wow.init();
+    </script>
+
+
+</body>
+
+<script>
+// 제이쿼리 충돌 방지를 위해 아래와 같이 작성합니다.
+(function($) {
+    $(window).on('load', function() {
+        console.log("애니메이션 시작");
+        // 1. 위치 초기화 (오른쪽 밖에서 투명하게)
+        $(".cont1 .center").css({
+            "position": "absolute",
+            "right": "-500px",
+            "opacity": "0",
+            "display": "block"
+        });
+
+        // 2. 0.5초 뒤에 화면 안으로 스윽 들어오기
+        $(".cont1 .center").stop().delay(500).animate({
+            "right": "50px", // 원하는 도착 지점
+            "opacity": "1"
+        }, 1500, "easeInOutExpo"); 
+    });
+})(jQuery);
+</script>
+</html>
+

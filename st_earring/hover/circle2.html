@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+p,h1,h2,h3,h4,h5,h6,ul,li{margin:0 ;padding:0;}
+.list {
+      list-style:none;
+      margin:0;
+      padding:0;
+     }
+	 
+.list li{float:left;margin:10px;position:relative;overflow:hidden;width:200px;height:200px;}	 
+.list li .caption{width:200px;height:200px;background:rgba(0,0,0,0.5);color:#fff;line-height:1.8;text-align:center;padding-top:15px;box-sizing:border-box;position:absolute;top:200px;left:0;opacity:0;transition:all 0.2s;border-radius:200px;}
+.list li:hover .caption{opacity:1;transform:translateY(-200px)}
+.list li img{border-radius:200px;}
+
+.list li .caption h1{opacity:0;transition:all 0.5s;}
+.list li:hover .caption h1{transition-delay: 0.2s;opacity:1}
+
+.list li .caption p{opacity:0;transition:all 0.5s;}
+.list li:hover .caption p{transition-delay: 0.4s;opacity:1}
+
+.list li .btn{margin-top:8px;}
+.list li .btn a{color:#000;text-decoration:none;background:rgba(255,255,255,0.6);padding:3px 25px;transition:all 0.5s;}
+.list li .btn a:hover{background:rgba(255,255,255,1);}
+
+
+.list .a1{color:rgba(255,255,255,0.6);font:bold 6em "맑은 고딕";
+	position:absolute;top:0px;left:0px;/*background:skyblue;*/
+	border-radius:200px;width:200px;height:200px;}
+.list  .a1{padding:30px 0 0 67px;box-sizing:border-box;}
+.list  li:hover .a1 {
+      opacity: 0;
+     } 
+</style>
+</head>
+
+<body>
+<h1>신상품 목록</h1>
+<div id="container">
+<ul class="list">
+      <li>
+        <img src="images/prod1-200.jpg"> 
+        <p class="a1">A</p>  
+         <div class="caption">
+          <h1>상품 1</h1>
+          <p>상품 1 설명 텍스트</p>
+          <p>가격 : 12,345원</p>
+          <p class="btn"><a href="#">click</a></p>
+        </div>    
+      </li>
+      
+      <li>
+        <img src="images/prod2-200.jpg">  
+        <p class="a1">B</p>  
+        <div class="caption">
+          <h1>상품 2</h1>
+          <p>상품 2 설명 텍스트</p>
+          <p>가격 : 12,345원</p>
+          <p class="btn"><a href="#">click</a></p>
+        </div>      
+      </li>
+      
+      <li>
+        <img src="images/prod3-200.jpg"> 
+        <p class="a1">C</p>  
+        <div class="caption">
+          <h1>상품 3</h1>
+          <p>상품 3 설명 텍스트</p>
+          <p>가격 : 12,345원</p>
+          <p class="btn"><a href="#">click</a></p>
+        </div>      
+      </li>
+    </ul>
+</div>
+</body>
+</html>

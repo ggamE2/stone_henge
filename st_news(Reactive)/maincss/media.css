@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+    #contents{width:90%;}
+    
+        /*---cont1---*/
+    #contents .cont1>div{width: 100%;}
+    #contents .cont1>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont1>div p{margin-left: 20px;}
+    
+    
+         /*---cont2---*/
+    #contents .cont2>div{width: 100%;}
+    #contents .cont2>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont2>div p{margin-left: 20px;}
+
+    
+         /*---cont3---*/
+    #contents .cont3>div{width: 100%;}
+    #contents .cont3>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont3>div p{margin-left: 20px;}
+    
+         /*---cont4---*/
+    #contents .cont4>div{width: 100%;}
+    #contents .cont4>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont4>div p{margin-left: 20px;}
+    
+
+         /*---cont5---*/
+    #contents .cont5>div{/*float: left;position: relative; */width: 100%;}
+    #contents .cont5>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont5>div p{margin-left: 20px;}
+
+
+         /*---cont6---*/
+    #contents .cont6>div{width: 100%;}
+    #contents .cont6>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont6>div p{margin-left: 20px;}
+    
+         /*---cont7---*/
+    #contents .cont7>div{width: 100%;}
+    #contents .cont7>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont7>div p{margin-left: 20px;}
+    
+        /*---cont8---*/
+    #contents .cont8>div{width: 100%;}
+    #contents .cont8>div:nth-child(2){display: block; height: 200px;}
+    #contents .cont8>div p{margin-left: 20px;}
+
+    
+    /*page6*/
+    #page6 h2{font:bold 26px "Malgun Gothic"; }
+    #page6 .sns{width: 90%; height: 100px; margin-top: 100px; }
+    #page6 .sns li{width: 24%; margin-right: 1.333333333333333%;}
+    #page6 .sns li:nth-child(4){margin-right: 0;}
+    #page6 .sns li:last-child{display: none;}
+    #page6 .icon{width: 40%;}
+    #page6 .foot{width: 90%;  }
+    #page6 .foot p{font:bold 20px "Malgun Gothic"; letter-spacing: -1px; color:#fff;}
+    #page6 .foot a{font:bold 14px "Malgun Gothic"; color:#fff;}
+}
+
+
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+    #contents{width:95%;}
+    
+    #contents .cont1>div p{margin:-10px 20px; }
+    #contents .cont2>div p{margin:-10px 20px; }
+    #contents .cont3>div p{margin:-10px 20px; }
+    #contents .cont4>div p{margin:-10px 20px; }
+    #contents .cont5>div p{margin:-10px 20px; }
+    #contents .cont6>div p{margin:-10px 20px; }
+    #contents .cont7>div p{margin:-10px 20px; }
+    #contents .cont8>div p{margin:-10px 20px; }
+    
+    /*------cont5-----*/
+    #contents .cont5{overflow: hidden; }
+    
+    
+    
+    #page6 h2{font:bold 32px "Malgun Gothic"; }
+    #page6 .sns{width: 85%; height: 170px; margin-top: 70px;}
+    #page6 .icon{width: 30%;}
+    #page6 .foot{width:90%;}
+    #page6 .foot p{font:bold 22px "Malgun Gothic"; color:#fff;}
+    #page6 .foot a{font:bold 15px "Malgun Gothic"; color:#fff;}
+}
+
+
+
+
+/*pc*/
+@media all and (min-width:1024px) {
+    #contents{width: 80%;}
+ 
+
+    /*---cont1---*/
+    #contents .cont1>div p{margin-left: 20px; }
+    /*---cont2---*/
+    #contents .cont2>div p{margin-left: 20px; }
+    /*---cont3---*/
+    #contents .cont3>div p{margin-left: 20px; }
+    /*---cont4---*/
+    #contents .cont4>div p{margin-left: 20px; }
+    /*---cont5---*/
+    #contents .cont5>div p{margin-left: 20px; }
+    /*---cont6---*/
+    #contents .cont6>div p{margin-left: 20px; }
+    /*---cont7---*/
+    #contents .cont7>div p{margin-left: 20px; }
+    /*---cont8---*/
+    #contents .cont8>div p{margin-left: 20px; }
+  
+    
+    #page6 h2{font:bold 37px "Malgun Gothic"; }
+    #page6 .sns{width: 70%; height: 200px; margin-top: 100px;}
+    #page6 .icon{width: 20%;}
+    #page6 .foot p{font:bold 24px "Malgun Gothic"; color:#fff;}
+    #page6 .foot a{font:bold 16px "Malgun Gothic"; color:#fff;}
+}

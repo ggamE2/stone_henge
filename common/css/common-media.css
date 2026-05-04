@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+.header_menu_pc,.footer .foot3 .txt4 {display:none;}
+.footer{height:500px;}     
+.footer .foot1 ul{width:80%; height: 90px; margin:0 auto;}     
+
+}
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.header_menu_pc{display:none;}
+
+.footer{height:420px;}     
+.footer .foot1 ul{width:80%; height: 40px; margin:0 auto;}     
+
+}
+
+
+/* pc */
+@media all and (min-width:1024px){
+.header_menu_mt, .footer_menu2{display:none;}
+
+.footer{height:400px;}
+
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+#showimage{display: none;}
+    #sec1{width: 100%;}
+    #sec2{width: 100%;}
+    #sec3{width: 100%;}
+    #sec4{width: 100%;}
+    #sec5{width: 100%;}
+    
+}
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {}
+
+/*pc*/
+@media all and (min-width:1024px) {}
