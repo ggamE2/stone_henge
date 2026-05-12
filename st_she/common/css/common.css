@@ -222,51 +222,56 @@ table{ border-collapse:collapse;}
     top: 60px;
 }
 
+
 .user_in .cont1 .join {
     position: relative;
+    width:100%;
     top: 50px;
     float: left;
+    text-align: left;
+    padding: 0 20px;
+    box-sizing: border-box;
     font: bold 15px "NanumGothic";
 }
 
 .user_in .cont1 .join span {
-    position: relative;
+    position:relative;
+    float:right;
     font: bold 15px "NanumGothic";
-    margin-left: 120px;
 }
 
 .user_in .cont2 {
     position: relative;
-    margin: 0 auto;
     width: 380px;
     top: 140px;
-    background: green;
-    text-align: center;
+    overflow: hidden; 
+    margin: 0 auto;
 }
 
 .user_in .cont2 ul {
-    position: relative;
-    width: 380px;
-    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .user_in .cont2 ul li {
+    width: 33.33%; 
     float: left;
-    margin-right: 20px;
     text-align: center;
 }
 
-.user_in .cont2 ul li:last-child {
-    margin-right: 0px;
-}
-
 .user_in .cont2 ul li a {
+    display: block; /* 영역을 꽉 채우게 */
     font: normal 16px "Bebas Neue";
+    text-decoration: none;
+    color: #333;
 }
 
 .user_in .cont2 ul li img {
     width: 50px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
+    display: block;
 }
 
 

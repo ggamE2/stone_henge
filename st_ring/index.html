@@ -25,7 +25,6 @@
     <script src="mainjs/prefixfree.min.js"></script>
     <script src="mainjs/jquery.mousewheel.min.js"></script>
 
-    <script src="common/js/common.js"></script>
     <script src="mainjs/main.js"></script>
 
 </head>
@@ -33,6 +32,8 @@
 <body>
     <div id="wrap">
         <header class="header">
+
+            <div class="header_menu_pc">
 
             <div class="head_menu">
                 <h1><a href="../st_main/index.html"><img src="../asset/images/logo.png" alt=""></a></h1>
@@ -131,7 +132,7 @@
                     </ul>
                     <ul class="gnb2">
                         <li class="user"><a href="#"><img src="../asset/images/user.png" alt=""></a></li>
-                        <li class="search_bar"><a href="#"><img src="images/search_bar.png" alt=""></a></li>
+                        <li class="search_bar"><a href="#"><img src="../asset/images/search_bar.png" alt=""></a></li>
                     </ul>
                 </nav>
             </div>
@@ -146,7 +147,47 @@
                     <input type="button" value="검색" class="search_btn">
                 </div>
             </div>
+            <div class="user_in">
+                <p class="close"><a href="#"><img src="../asset/images/close.png" alt=""></a></p>
+                <h2>로그인</h2>
+                <h3>회원가입 시 등록하신 이메일과 비밀번호를 입력해주세요.<br>
+                    통합 아이디로 FAMILY 사이트의 모든 서비스를 안전하게 이용하실 수 있습니다.</h3>
+
+                <div class="cont1">
+                    <input type="text" placeholder="id" class="id">
+                    <input type="text" placeholder="pw" class="pw">
+                    <p class="btn"><a href="#">로그인하기</a></p>
+                    <ul>
+                        <li class="id_save"><input type="checkbox">아이디 저장하기</li>
+                        <li class="id_search"><a href="#">아이디 찾기</a>/</li>
+                        <li class="pw_search"><a href="#">비밀번호 찾기</a></li>
+                    </ul>
+                    <div class="line"></div>
+                    <p class="join">아직 회원이 아니신가요? <span><a
+                                href="">회원가입</a></span>
+                    </p>
+                </div><!--user_in-->
+
+
+                <div class="cont2">
+                    <ul>
+                        <li><a href="https://nid.naver.com/"><img src="../asset/images/icon1.png" alt="">
+                                <p>네이버 로그인</p>
+                            </a></li>
+                        <li><a href="#"><img src="../asset/images/icon2.png" alt="">
+                                <p>페이스북 로그인</p>
+                            </a></li>
+                        <li><a
+                                href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount"><img
+                                    src="../asset/images/icon3.png" alt="">
+                                <p>카카오톡 로그인</p>
+                            </a></li>
+                    </ul>
+            </div>
+        
         </header>
+
+
 
         <div class="menu_r">
             <ul class="gnb_r">

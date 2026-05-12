@@ -46,6 +46,22 @@ $(this).find(".subm").stop().slideUp();
 $(".gnb_back").stop().slideUp();
 $(".header").css("background","transparent");    
 }); 
+
+//search    
+$(".search_bar").on("click",function(){
+$(".search_box").slideToggle(300);   
+$(".header").css("background","rgba(255,255,255,0.6)");     
+});   
+
+//user
+$(".user").on("click",function(){
+$(".user_in").fadeIn(); 
+});
+$(".user_in .close").on("click",function(){
+$(".user_in").fadeOut();    
+});
+    
+    
     
    /* gnb_r li on */
 	$(window).on("scroll",function(){	
